@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf App</title>
+    
+    <link rel = "stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+<br>
+    <center><h1>Organize Your Book Titles</h1></center>
+    <br><br>
+
+   <center> <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                       <h2><label for="new-genre-name">Book Title Name</label></h2><br>
+                        <input type="text" class="form-control" id="new-genre-name">
+                    </div>
+                </div>
+            </div>
+            <div><br>
+             <button id="new-genre" class="btn btn-primary form-control">Create</button><br>
+        </div>
+     </div>
+     </div><br>
+
+    <div id="genres">
+    </div></center>
+
+    
+<script src="index.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>   
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> 
+</body>
+</html>
